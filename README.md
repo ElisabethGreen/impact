@@ -1,2 +1,2 @@
 # impact
-comprehensive lifetime environmental impact calculator for carbon credit to safety net for climate neutral seniors
+transfers carbon credit from comprehensive lifetime environmental impact calculator to safety net for climate neutral seniors
