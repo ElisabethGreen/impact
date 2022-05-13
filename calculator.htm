@@ -4,15 +4,15 @@
   <meta name="DC.title" content="Lifetime Environmental Impact Calculator" />
   <title>Lifetime Environmental Impact Calculator</title>
   <div class="bg-img">
-   <div class="container">
-    <div class="topnav">
+    <div class="container">
+      <div class="topnav">
       <a href="index.htm">Home</a>
       <a href="employee.htm">News</a>
       <a href="contact.htm">Contact</a>
       <a href="credit.htm">About</a>
+      </div>
     </div>
-  </div>
-</div> 
+  </div> 
 <style>
 .bg-img {
   /* The image used */
@@ -62,8 +62,8 @@
 <body class="node-type-page resource-directory wide-template" >
  		<p id="sitewidea"></p>
   <section id="main-content" class="main-content clearfix" role="main">
-    <div class="region-preface clearfix">
-    </div>
+  <div class="region-preface clearfix">
+  </div>
     <div class="main-column clearfix">
 <!--googleon: all-->
       <h1 class="page-title"><center>Comprehensive Lifetime Carbon Impact Calculator (under construction)</center></h1>
@@ -71,8 +71,8 @@
       <div class="panel-pane pane-node-content" >
         <div class="pane-content">
           <div class="node node-page clearfix view-mode-full">
-
-<div id="fb-root"></div>
+			<div id="fb-root">
+			</div>
 <script>
 window.fbAsyncInit = function() {
 FB.init({appId: '318225645016237', xfbml: true, version: 'v2.1'});
@@ -101,7 +101,7 @@ document.getElementById('fb-root').appendChild(e);
 
     <section id="main" class="displayNone">
  
-                <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   0 - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - -  M O D U L E   C R E D I T - - - - - - - - - - - - - - - - - -->
  
  
                  <div id="removal" class="removal accordion displayNone">
@@ -184,28 +184,32 @@ document.getElementById('fb-root').appendChild(e);
                                     <td></td>
                                    <td><label >For Child 1</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 1 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
-                                    <td class="mobile-hook"><div class="bold"><span class="child1Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+                                    <td class="mobile-hook">
+										<div class="bold"><span class="child1Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
 								<tr>
                                     <td></td>
                                    <td><label >For Child 2</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 2 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
-                                    <td class="mobile-hook"><div class="bold"><span class="child2Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+                                    <td class="mobile-hook">
+										<div class="bold"><span class="child2Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
 								<tr>
                                     <td></td>
                                    <td><label >For Child 3</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 3 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
-                                    <td class="mobile-hook"><div class="bold"><span class="child3Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+                                    <td class="mobile-hook">
+										<div class="bold"><span class="child3Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
 								<tr>
                                     <td></td>
                                    <td><label >For Child 4</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 4 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
-                                    <td class="mobile-hook"><div class="bold"><span class="child4Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+                                    <td class="mobile-hook">
+										<div class="bold"><span class="child4Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
                             </table>
@@ -215,86 +219,7 @@ document.getElementById('fb-root').appendChild(e);
                 </div>
 
 
-                <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   1 - - - - - - - - - - - - - - - - - - - -->
-    
-
-                <!-- - - - - - -     DROPDOWN 1     - - - - - - - - -->
-    
-
-                <div id="home-emissions" class="accordion">
-                    <header>
-                        Your Lifetime Emissions from Living Space Energy
-
-                    </header>
-      
-
-                    <section class="hidden-content">
-                        <div class="inner-container" style="padding: 1em">
-                            <table id="homeInput">
-                                <tr>
-                                    <th>Utility and Heating</th>
-                                    <td colspan="3">
-                                        Enter your average monthly bill or other data for each source of energy you have ever used in your living space.
-                                    </td>
-                                </tr>
-                            </table>
-    
-
-                            <ul id="lifetime-emissions-ul">
-                                <li class="naturalGas">
-                                    <div class="inner-container">
-                                        <label for="naturalGasTextInput">Natural Gas</label>
-                                        <span id="info-nat-gas" class="info-asset">&nbsp;</span>
-                                        <input type="number" name="naturalGasTextInput" id="naturalGasTextInput" value="">
-                                        <select id="naturalGasSelectInput">
-                                            <option>Dollars</option>
-                                            <option>Thousand Cubic Feet</option>
-                                            <option>Therms</option>
-                                        </select>
-                                    </div>
-                                </li>
-                                <li class="electricity">
-                                    <div class="inner-container">
-                                        <label for="electricityTextInput">Electricity</label>
-                                        <span id="info-elec" class="info-asset"></span>
-                                        <input type="number" name="electricityTextInput" id="electricityTextInput" value="">
-                                        <select id="electricitySelectInput">
-                                            <option>Dollars</option>
-                                            <option>kWh</option>
-                                        </select>
-                                        <!--[if IE]><label style="display:inline-block; font-size: 0.6em;">% electricity that is Green:</label><br/><![endif]-->
-                                        <div style="white-space:nowrap;"><input type="number" id="electricityGreenTextInput" placeholder="% electricity that is Green" style="width:88%;"> <span id="info-percentage-green" class="info-asset">&nbsp;</span></div>
-                                    </div>
-                                </li>
-                                <li class="fuel">
-                                    <div class="inner-container">
-                                        <label for="fuelTextInput">Fuel Oil</label>
-                                        <span id="info-oil" class="info-asset"></span>
-                                        <input type="number" name="fuelTextInput" id="fuelTextInput" value="">
-                                        <select id="fuelSelectInput">
-                                            <option>Dollars</option>
-                                            <option>Gallons</option>
-                                        </select>
-                                    </div>
-                                </li>
-                                <li class="propane">
-                                    <div class="inner-container">
-                                        <label for="propaneTextInput">Propane</label>
-                                        <span id="info-propane" class="info-asset"></span>
-                                        <input type="number" name="propaneTextInput" id="propaneTextInput" value="">
-                                        <select id="propaneSelectInput">
-                                            <option>Dollars</option>
-                                            <option>Gallons</option>
-                                        </select>
-                                    </div>
-                                </li>
-                            </ul>
-                            <p style="font-style:italic; margin-bottom: 0">Estimated pounds of CO<sub>2</sub>/year  emitted</p>
-                        </div>
-                    </section>
-                </div>
-                
-                <!-- - - - - - - - - - - - - - - - - - -   M O D U L E   2  - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - - - -   M O D U L E   C A R  - - - - - - - - - - - - - - - - - -->
     
 
                 <!-- - - - - - -     DROPDOWN 1     - - - - - - - - -->
@@ -334,8 +259,6 @@ document.getElementById('fb-root').appendChild(e);
 											<option>18</option>
 											<option>19</option>
 											<option>20</option>
-											<option>21</option>
-											<option>5</option>
 										</select>
 									</td>
                                     <td></td>
@@ -452,8 +375,89 @@ document.getElementById('fb-root').appendChild(e);
                         </div>
                     </section>
                 </div>
-                        
-                <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   3   - - - - - - - - - - - - - - - - - - - -->
+				
+               <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   E - - - - - - - - - - - - - - - - - - - -->
+    
+
+                <!-- - - - - - -     DROPDOWN 1     - - - - - - - - -->
+    
+
+                <div id="home-emissions" class="accordion">
+                    <header>
+                        Your Lifetime Emissions from Living Space Energy
+
+                    </header>
+      
+
+                    <section class="hidden-content">
+                        <div class="inner-container" style="padding: 1em">
+                            <table id="homeInput">
+                                <tr>
+                                    <th>Utility and Heating</th>
+                                    <td colspan="3">
+                                        Enter your average monthly bill or other data for each source of energy you have ever used in your living space.
+                                    </td>
+                                </tr>
+                            </table>
+    
+
+                            <ul id="lifetime-emissions-ul">
+                                <li class="naturalGas">
+                                    <div class="inner-container">
+                                        <label for="naturalGasTextInput">Natural Gas</label>
+                                        <span id="info-nat-gas" class="info-asset">&nbsp;</span>
+                                        <input type="number" name="naturalGasTextInput" id="naturalGasTextInput" value="">
+                                        <select id="naturalGasSelectInput">
+                                            <option>Dollars</option>
+                                            <option>Thousand Cubic Feet</option>
+                                            <option>Therms</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="electricity">
+                                    <div class="inner-container">
+                                        <label for="electricityTextInput">Electricity</label>
+                                        <span id="info-elec" class="info-asset"></span>
+                                        <input type="number" name="electricityTextInput" id="electricityTextInput" value="">
+                                        <select id="electricitySelectInput">
+                                            <option>Dollars</option>
+                                            <option>kWh</option>
+                                        </select>
+                                        <!--[if IE]><label style="display:inline-block; font-size: 0.6em;">% electricity that is Green:</label><br/><![endif]-->
+                                        <div style="white-space:nowrap;"><input type="number" id="electricityGreenTextInput" placeholder="% electricity that is Green" style="width:88%;"> <span id="info-percentage-green" class="info-asset">&nbsp;</span>
+										</div>
+                                    </div>
+                                </li>
+                                <li class="fuel">
+                                    <div class="inner-container">
+                                        <label for="fuelTextInput">Fuel Oil</label>
+                                        <span id="info-oil" class="info-asset"></span>
+                                        <input type="number" name="fuelTextInput" id="fuelTextInput" value="">
+                                        <select id="fuelSelectInput">
+                                            <option>Dollars</option>
+                                            <option>Gallons</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li class="propane">
+                                    <div class="inner-container">
+                                        <label for="propaneTextInput">Propane</label>
+                                        <span id="info-propane" class="info-asset"></span>
+                                        <input type="number" name="propaneTextInput" id="propaneTextInput" value="">
+                                        <select id="propaneSelectInput">
+                                            <option>Dollars</option>
+                                            <option>Gallons</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                            <p style="font-style:italic; margin-bottom: 0">Estimated pounds of CO<sub>2</sub>/year  emitted</p>
+                        </div>
+                    </section>
+                </div>
+                
+                         
+                <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   W A S T E   - - - - - - - - - - - - - - - -->
     
 
                 <!-- - - - - - -     DROPDOWN 1     - - - - - - - - -->
@@ -517,8 +521,6 @@ document.getElementById('fb-root').appendChild(e);
                     </section>
                 </div>
             </section>    
-			
- 
 
         <!-- - - - - - - - - - - - - - - - - - -  R E P O R T  - - - - - - - - - - - - - - - - - - - -->
     
@@ -536,11 +538,15 @@ document.getElementById('fb-root').appendChild(e);
 							</div>
 							<div class="rowChart">
 								<div class="rowItems">
-									<div class="homeEnergyCharItem" title=""></div>
-									<div class="transportationCharItem" title=""></div>
-									<div class="wasteCharItem" title=""></div>
+									<div class="homeEnergyCharItem" title="">
+									</div>
+									<div class="transportationCharItem" title="">
+									</div>
+									<div class="wasteCharItem" title="">
+									</div>
 								</div>
-								<div class="totalEmissions totals-val">0 lbs of CO<sub>2</sub> emitted</div>
+								<div class="totalEmissions totals-val">0 lbs of CO<sub>2</sub> emitted
+								</div>
 							</div>
 						</div>																		
 					</div>					
@@ -549,13 +555,15 @@ document.getElementById('fb-root').appendChild(e);
                       
             <div id="more-info">
                 <p>View <a target="_blank" href="http://green247.org/output.htm">your Lifetime Environmental Impact</a>
-                <p>Visit <a target="_blank" href="http://green247.org/fulfill.htm">this webpage</a> to use your carbon credit.</p>				
-                <p>Visit <a target="_blank" href="http://green247.org/credit.htm">this webpage</a> to learn more about  how you can reduce your carbon impact.</p>
+                <p>Visit <a target="_blank" href="http://green247.org/fulfill.htm">this webpage</a> to use your carbon credit.</p>
+				<p>Add your carbon credit to your electronic wallet for <a href="pay.htm">automatic living wage payments</a>.</p>
+				<p>Visit <a target="_blank" href="http://green247.org/credit.htm">this webpage</a> to learn more about  how you can reduce your carbon impact.</p>
                 
             </div>
         </section>
-            
-
+		
+        <!-- - - - - - - - - - - - - - - - - - -  N O T E S  - - - - - - - - - - - - - - - - - - - -->
+    
         <div id="dialog-nat-gas" class="dialog">
             <p>If you enter your monthly consumption in thousands of cubic feet, you'll get a more accurate estimate.	If you enter dollars, our calculations assume that you pay $10.68/thousand cubic feet.</p>
             <p>$23/month is about average in the United States for a household of one person. </p>
@@ -654,12 +662,11 @@ document.getElementById('fb-root').appendChild(e);
             <p>Your local utility or other electricity supplier may offer green power as an option. If you purchase some or all of your electricity as green power, enter the percentage here. For a definition of green power, visit <a target="_blank" href="https://www.epa.gov/greenpower/gpmarket/index.htm">https://www.epa.gov/greenpower/gpmarket/index.htm</a>.</p>
         </div>
     </section>
-
- </div>
-        </div>
-      </div>
- <!--googleoff: all-->
+	  </div>
     </div>
+  </div>
+ <!--googleoff: all-->
+</div>
   </section>
   <script src="https://www.epa.gov/sites/all/libraries/template/jquery.js"></script>
   <script src="https://www.epa.gov/sites/all/libraries/template/js.js"></script>
