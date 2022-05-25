@@ -92,7 +92,7 @@ document.getElementById('fb-root').appendChild(e);
             <div class="inner-div">
                 <div class="left-form">
                     <h1>What is your Lifetime Carbon Impact?</h1>
-                    <h2>For a more accurate estimate, use numbers from your utility bills (electricity, natural gas, fuel oil, propane). You can find your car's rated fuel efficiency in miles per gallon, MPG, at <a href="https://fueleconomy.gov" target="_blank">fueleconomy.gov</a>, or you can <a href="https://www.fueleconomy.gov/mpg/MPG.do?action=calcMPG" target="_blank">calculate your car's actual efficiency.</a></h2>
+                   
                 </div>
             </div>
 		</section>
@@ -128,7 +128,34 @@ document.getElementById('fb-root').appendChild(e);
                            </table>
                 </div>
  
-               <!-- - - - - - - - - - - - - - - - - - -   M O D U L E   0  - - - - - - - - - - - - - - - - - - - -->
+                <!-- - - - - - - - - - - - - - - - -  M O D U L E   O F F S E T - - - - - - - - - - - - - - - - - -->
+ 
+ 
+                 <div id="removal" class="removal accordion displayNone">
+                    <header>
+                        Your Lifetime Acquisition of Environmental Offsets from Nature Based Greenhouse Gas Removal
+                    </header>
+
+                            <table id="removal" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+                                   <td class="mobile-hook" colspan="3" style="text-align:left;">
+										How many metric tonnes of greenhouse gas has anyone ever removed from the atmosphere for you? 															
+										</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="removal"><label for="removal"> tonnes</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="removed">0</span> tonnes of CO<sub>2</sub> removed</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+
+              <!-- - - - - - - - - - - - - - - - - - -   M O D U L E   0  - - - - - - - - - - - - - - - - - - - -->
     
 
                 <!-- - - - - - -     DROPDOWN 1     - - - - - - - - -->
@@ -136,7 +163,7 @@ document.getElementById('fb-root').appendChild(e);
 
                 <div id="reproduction-emissions" class="accordion displayNone">
                     <header>
-                        Your Lifetime Emissions from Reproduction
+                        Your Lifetime Impact from Reproduction
                         <span id="info-reproduction-emissions" class="info-asset" style="vertical-align: top; margin-top:0px;"></span>
                     </header>
 
@@ -165,11 +192,6 @@ document.getElementById('fb-root').appendChild(e);
 											<option>14</option>
 											<option>15</option>
 											<option>16</option>
-											<option>17</option>
-											<option>18</option>
-											<option>19</option>
-											<option>20</option>
-											<option>21</option>
 										</select>
 									</td>
                                     <td></td>
@@ -185,7 +207,7 @@ document.getElementById('fb-root').appendChild(e);
                                    <td><label >For Child 1</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 1 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
                                     <td class="mobile-hook">
-										<div class="bold"><span class="child1Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+										<div class="bold"><span class="child1Co2">0</span> metric tonnes of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
 								<tr>
@@ -193,7 +215,7 @@ document.getElementById('fb-root').appendChild(e);
                                    <td><label >For Child 2</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 2 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
                                     <td class="mobile-hook">
-										<div class="bold"><span class="child2Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+										<div class="bold"><span class="child2Co2">0</span> metric tonnes of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
 								<tr>
@@ -201,15 +223,7 @@ document.getElementById('fb-root').appendChild(e);
                                    <td><label >For Child 3</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 3 spent in a Developed Country</label>
 											<span class="info-developed info-asset"></span></td>
                                     <td class="mobile-hook">
-										<div class="bold"><span class="child3Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
-                                </tr>
-								<tr><td colspan="5"><hr class="divide"/></td></tr>
-								<tr>
-                                    <td></td>
-                                   <td><label >For Child 4</label></td><td class="reproductionInlineElement"><input type="number" id="child"> <label>Percent of time Child 4 spent in a Developed Country</label>
-											<span class="info-developed info-asset"></span></td>
-                                    <td class="mobile-hook">
-										<div class="bold"><span class="child4Co2">0</span> lbs of CO<sub>2</sub> emitted</div></td>
+										<div class="bold"><span class="child3Co2">0</span> metric tonnes of CO<sub>2</sub> emitted</div></td>
                                 </tr>
 								<tr><td colspan="5"><hr class="divide"/></td></tr>
                             </table>
@@ -227,7 +241,7 @@ document.getElementById('fb-root').appendChild(e);
 
                 <div id="transportation-emissions" class="accordion displayNone">
                     <header>
-                        Your Lifetime Emissions from Transportation
+                        Your Lifetime Emissions from Transportation. Okay to find your car's rated fuel efficiency in miles per gallon, MPG, at <a href="https://fueleconomy.gov" target="_blank">fueleconomy.gov</a>, or you can <a href="https://www.fueleconomy.gov/mpg/MPG.do?action=calcMPG" target="_blank">calculate your car's actual efficiency.</a>
                         <span id="info-car-emissions" class="info-asset" style="vertical-align: top; margin-top:0px;"></span>
                     </header>
 
@@ -376,6 +390,269 @@ document.getElementById('fb-root').appendChild(e);
                     </section>
                 </div>
 				
+               <!-- - - - - - - - - - - - - - - - -  M O D U L E   A I R - - - - - - - - - - - - - - - - - -->
+ 
+ 
+                 <div id="air" class="air accordion displayNone">
+                    <header>
+                        Your Lifetime Emissions from Airline Travel
+                    </header>
+
+                            <table id="air" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How many miles have you ever traveled on airlines?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="air"><label for="air"> miles</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="air">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+				
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   C L O T H - - - - - - - - - - - - - - - - - -->
+ 
+                 <div id="cloth" class="cloth accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Cloth Products
+                    </header>
+
+                            <table id="cloth" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How much have you ever spent on cloth including garments, linens, drapes, etc?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="cloth"><label for="cloth">
+											<select id="numVehiclesInput">
+											<option selected>$USD</option>
+											<option>Yen</option>
+											<option>Fr</option>
+											<option>TL</option>
+											<option>SFr</option>
+											<option>Rp</option>
+											<option>Euros</option>
+											<option>Mex$</option>
+											<option>KD</option>
+											<option>DM</option>
+											<option>R$</option>
+											<option>A$</option>
+											<option>C$</option>
+											<option>CxT</option>
+											<option>ETH</option>
+											<option>BTC</option>
+											<option>AVAX</option>
+										</select>
+										</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="cloth">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+				
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   F U R N I S H - - - - - - - - - - - - - - - - - -->
+ 
+                 <div id="furnish" class="furnish accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Furnishings
+                    </header>
+
+                            <table id="furnish" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How much have you ever spent on furniture and appliances?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="furnish"><label for="furnish">
+											<select id="numVehiclesInput">
+											<option selected>$USD</option>
+											<option>Yen</option>
+											<option>Fr</option>
+											<option>TL</option>
+											<option>SFr</option>
+											<option>Rp</option>
+											<option>Euros</option>
+											<option>Mex$</option>
+											<option>KD</option>
+											<option>DM</option>
+											<option>R$</option>
+											<option>A$</option>
+											<option>C$</option>
+											<option>CxT</option>
+											<option>ETH</option>
+											<option>BTC</option>
+											<option>AVAX</option>
+										</select>
+										</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="furnish">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+				
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   S U P P L I E S - - - - - - - - - - - - - - - - - -->
+ 
+                 <div id="supplies" class="supplies accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Equipment and Supplies
+                    </header>
+
+                            <table id="supplies" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How much have you ever spent on equipment and supplies including phones and every thing not included above?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="supplies"><label for="supplies">		<select id="numVehiclesInput">
+											<option selected>$USD</option>
+											<option>Yen</option>
+											<option>Fr</option>
+											<option>TL</option>
+											<option>SFr</option>
+											<option>Rp</option>
+											<option>Euros</option>
+											<option>Mex$</option>
+											<option>KD</option>
+											<option>DM</option>
+											<option>R$</option>
+											<option>A$</option>
+											<option>C$</option>
+											<option>CxT</option>
+											<option>ETH</option>
+											<option>BTC</option>
+											<option>AVAX</option>
+										</select>
+										</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="supplies">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+					
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   S E R V I C E - - - - - - - - - - - - - - -->
+ 
+                 <div id="services" class="services accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Services
+                    </header>
+
+                            <table id="services" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How much have you ever spent on services including bills, subscriptions, insurance, accounting, etc?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="services"><label for="services"> 								
+										<select id="numVehiclesInput">
+											<option selected>$USD</option>
+											<option>Yen</option>
+											<option>Fr</option>
+											<option>TL</option>
+											<option>SFr</option>
+											<option>Rp</option>
+											<option>Euros</option>
+											<option>Mex$</option>
+											<option>KD</option>
+											<option>DM</option>
+											<option>R$</option>
+											<option>A$</option>
+											<option>C$</option>
+											<option>CxT</option>
+											<option>ETH</option>
+											<option>BTC</option>
+											<option>AVAX</option>
+										</select>
+										</label>
+                                        </div>	
+										</td>
+
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="services">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+				
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   C A L L S - - - - - - - - - - - - - - -->
+ 
+                 <div id="calls" class="calls accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Service Calls
+                    </header>
+
+                            <table id="calls" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How many times have you gotten someone younger than 26 years old into trouble with the police?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="calls"><label for="calls"> calls</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="calls">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+
+	               <!-- - - - - - - - - - - - - - - - -  M O D U L E   Y O U T H S - - - - - - - - - - - - - - -->
+ 
+                 <div id="youths" class="youths accordion displayNone">
+                    <header>
+                        Your Lifetime Impact from Abuse of Youths
+                    </header>
+
+                            <table id="youths" class="" style="width:100%;">
+                                <tr style="margin-bottom: .8em">
+									<td class="mobile-hook" colspan="3" style="text-align:left;">
+										How many individuals younger than 26 years old have you physically or sexually abused?
+									</td>
+                                    <td><div class="mobile_to-be-block">
+											<input type="number" maxlength="6" id="youths"><label for="youths"> youths</label>
+                                        </div>									
+									</td>
+                                </tr>
+                                <tr style="margin-bottom: .8em">
+                                    <td></td>
+
+                                    <td class="mobile-hook" ><span class="youths">0</span> tonnes of CO<sub>2</sub> emitted</td>
+                                </tr>
+ 								<tr><td colspan="5"><hr class="divide"/></td></tr>
+                           </table>
+                </div>
+
                <!-- - - - - - - - - - - - - - - - - - -  M O D U L E   E - - - - - - - - - - - - - - - - - - - -->
     
 
@@ -384,7 +661,7 @@ document.getElementById('fb-root').appendChild(e);
 
                 <div id="home-emissions" class="accordion">
                     <header>
-                        Your Lifetime Emissions from Living Space Energy
+                        Your Lifetime Emissions from Energy. For a more accurate estimate, use numbers from your utility bills (electricity, natural gas, fuel oil, propane). 
 
                     </header>
       
@@ -395,12 +672,11 @@ document.getElementById('fb-root').appendChild(e);
                                 <tr>
                                     <th>Utility and Heating</th>
                                     <td colspan="3">
-                                        Enter your average monthly bill or other data for each source of energy you have ever used in your living space.
+                                        Enter your average monthly bill or other data for each source of energy you have ever used in your living and work spaces.
                                     </td>
                                 </tr>
                             </table>
     
-
                             <ul id="lifetime-emissions-ul">
                                 <li class="naturalGas">
                                     <div class="inner-container">
@@ -524,17 +800,16 @@ document.getElementById('fb-root').appendChild(e);
 
         <!-- - - - - - - - - - - - - - - - - - -  R E P O R T  - - - - - - - - - - - - - - - - - - - -->
     
-        <section id="report" class="displayNone">
-    
+        <section id="report" class="displayNone">    
             <div id="graph-totals">
                 <span class="asset footprint-asset"></span>
-                <h2>Your Lifetime Environmental Impact</h2>
+                <h2>Join the Waitlist to be among the first to calculate</h2>
     
 				<div>					
 					<div id="allGraphs">
 						<div id="lifetime-total" class="graphRow">
 							<div class="rowTitle">
-								<span >Your Lifetime Total</span>
+								<span >Your Comprehensive Lifetime Environmental Impact</span>
 							</div>
 							<div class="rowChart">
 								<div class="rowItems">
@@ -545,14 +820,19 @@ document.getElementById('fb-root').appendChild(e);
 									<div class="wasteCharItem" title="">
 									</div>
 								</div>
-								<div class="totalEmissions totals-val">0 lbs of CO<sub>2</sub> emitted
+								<div class="totalEmissions totals-val">in metric tonnes of CO<sub>2</sub> emitted.
 								</div>
 							</div>
 						</div>																		
 					</div>					
 				</div>
             </div>
-                      
+	<form action="mailto:green@green247.org" method="get" enctype="text/plain">
+      <div>
+        <input type="submit" name="submit" value="Email" />
+      </div>
+    </form>
+
             <div id="more-info">
                 <p>View <a target="_blank" href="http://green247.org/output.htm">your Lifetime Environmental Impact</a>
                 <p>Visit <a target="_blank" href="http://green247.org/fulfill.htm">this webpage</a> to use your carbon credit.</p>
@@ -562,105 +842,6 @@ document.getElementById('fb-root').appendChild(e);
             </div>
         </section>
 		
-        <!-- - - - - - - - - - - - - - - - - - -  N O T E S  - - - - - - - - - - - - - - - - - - - -->
-    
-        <div id="dialog-nat-gas" class="dialog">
-            <p>If you enter your monthly consumption in thousands of cubic feet, you'll get a more accurate estimate.	If you enter dollars, our calculations assume that you pay $10.68/thousand cubic feet.</p>
-            <p>$23/month is about average in the United States for a household of one person. </p>
-                    <p>3,071 pounds of CO<sub>2</sub> is about average for a household of one person over a year.</p>
-        </div>
-        <div id="dialog-elec" class="dialog">
-            <p>If you enter your average kilowatt-hours, you'll get a more accurate estimate. If you enter dollars, our calculations assume that you pay 11.9 cents/kWh.</p>
-            <p>$44/month is about average in the United States for a household of one person.</p>
-            <p>5,384 pounds of CO<sub>2</sub> is about average for a household of one person over a year.</p>
-        </div>
-        <div id="dialog-oil" class="dialog">
-            <p>If you enter your average monthly fuel oil use in gallons, you'll get a more accurate estimate. If you enter dollars, our calculations assume that you pay $4.02/gallon.</p>
-            <p>$72/month is about average in the United States for a household of one person.</p>
-            <p>4,848 pounds of CO<sub>2</sub> is about average for a household of one person over a year.</p>
-        </div>
-        <div id="dialog-propane" class="dialog">
-            <p>If you enter your monthly propane use in gallons, you'll get a more accurate estimate. If you enter dollars, our calculations assume that you pay $2.47/gallon.</p>
-            <p>$37/month is about average in the United States for a household of one person.</p>
-            <p>2,243 pounds of CO<sub>2</sub> is about average for a household of one person over a year.</p>
-        </div>
-        
-
-        <div id="dialog-elec-green" class="dialog">
-            <p>Green power is a type of renewable energy that comes from resources and technologies that provide the most environmental benefit.
-
-            Learn more about <a href="https://www.epa.gov/greenpower/buygp/index.htm" target="_blank">Green Power</a>  and <a href="https://www.epa.gov/greenpower/pubs/gplocator.htm" target="_blank">Green  Power products in your state</a>.</p>
-        </div>
-    
-
-        <div id="dialog-green-power" class="dialog">
-            <p>On average, green power costs roughly 2 cents per kWh more than conventional power.</p>
-        </div>
-        
-
-        <div id="dialog-annual-emissions" class="dialog">
-            <p>Even though it's a gas, CO<sub>2</sub> is measured in units of mass such as pounds, kilograms, and tons. Below are some useful comparisons to put CO<sub>2</sub> emissions in context*:
-
-            <ul>
-                <li>100 lb of CO<sub>2</sub> = emissions from burning 5 gallons of gasoline</li>
-                <li>500 lb of CO<sub>2</sub> = emissions from burning 244 pounds of coal</li>
-                <li>1,000 lb of CO<sub>2</sub> = emissions from burning 1.1 barrels of oil</li>
-            </ul>
-            *Equivalents are from <a href="https://www.epa.gov/cleanenergy/energy-resources/calculator.html" target="_blank">EPA's Greenhouse Gas Equivalencies Calculator</a>
-        </div>
-        
-
-        <div id="dialog-cooling" class="dialog">
-            <p>A programmable thermostat can automate turning up the A/C for you. To learn more, visit the Department of Energy's <a href="https://energy.gov/energysaver/articles/thermostats" target="_blank">Programmable Thermostats</a> page.</p><p>You can only calculate savings for your A/C thermostat if you have input your lifetime electricity usage in the section above.</p>
-        </div>
-        <div id="dialog-heating" class="dialog">
-            <p>A programmable thermostat can automate turning down the heat for you. To learn more, visit the Department of Energy's <a href="https://energy.gov/energysaver/articles/thermostats" target="_blank">Programmable Thermostats</a> page.</p>
-        </div>
-        <div id="dialog-lighting" class="dialog">
-            <p>Lorem ipsum dolar amet</p>
-        </div>
-        <div id="dialog-home-green-power" class="dialog">
-            <p>Check out <a href="https://www.energystar.gov/certified-products/certified-products?c=products.pr_find_es_products" target="_blank">ENERGY STAR's product listings</a> for more information.</p>
-        </div>
-        <div id="dialog-miles" class="dialog">
-            <p>240 miles/week (12,480 miles/year) is about average in the United States, per vehicle.</p>
-        </div>
-        <div id="dialog-mileage" class="dialog">
-            <p>If you don't know your car's fuel economy, you can look it up at <a href="www.fueleconomy.gov" target="_blank">www.fueleconomy.gov</a>. The national average is 21.4 miles per gallon.</p>
-        </div>
-        <div id="dialog-car-emissions" class="dialog">
-            <p>11,141 pounds of CO<sub>2</sub> emissions is about average for one vehicle over a year.</p>
-        </div>
-        <div id="dialog-maintenance" class="dialog">
-            <p>Visit fueleconomy.gov's <a href="https://www.fueleconomy.gov/feg/maintain.jsp" target="_blank">Keeping Your Car in Shape</a> page for more information.</p>
-        </div>
-        <div id="dialog-reduce-miles" class="dialog">
-            <p>Look for opportunities to combine trips, telecommute, use a carpool or ride-sharing program, use public transit if available, or travel by bike or foot instead of by car.</p>
-        </div>
-        <div id="dialog-increase-mileage" class="dialog">
-            <p>To compare the fuel economy of different vehicles, visit the <a href="https://www.fueleconomy.gov/" target="_blank">fueleconomy.gov</a> site.</p>
-        </div>
-        <div id="dialog-waste-emissions" class="dialog">
-            <p>692 pounds of CO<sub>2</sub> equivalent per year is about average for a household of 1 person. Your waste-related emissions are calculated based on the number of people in your household.</p>
-        </div>
-        <div id="dialog-recycling" class="dialog">
-            <p>Recycling is only one way to reduce your emissions from waste. View Your Report for more you can do.</p>
-        </div>
-        <div id="dialog-make-selection1" class="dialog">
-            <p>To complete the calculator, please make a selection in all fields or enter a zero to indicate you will not take the action.</p>
-        </div>
-        <div id="dialog-make-selection2" class="dialog">
-            <p>To complete the calculator, please make a selection in all fields or enter a zero to indicate you will not take the action.</p>
-        </div>
-        <div id="dialog-recycling-report-result" class="dialog">
-            <p>Recycling might not save you money (unless you can redeem your bottles), but it's easy and definitely saves resources. Fun fact: recycling just one can saves enough energy to watch TV for three hours!</p>
-        </div>
-        <div id="dialog-green-power-result-report" class="dialog">
-            <p>Using Green Power may not save money, but it avoids harmful emissions and reduces your carbon footprint.</p>
-        </div>
-        <div id="dialog-percentage-green" class="dialog">
-            <p>Your local utility or other electricity supplier may offer green power as an option. If you purchase some or all of your electricity as green power, enter the percentage here. For a definition of green power, visit <a target="_blank" href="https://www.epa.gov/greenpower/gpmarket/index.htm">https://www.epa.gov/greenpower/gpmarket/index.htm</a>.</p>
-        </div>
     </section>
 	  </div>
     </div>
@@ -678,6 +859,9 @@ document.getElementById('fb-root').appendChild(e);
 
   <!-- Local JS -->
   <script charset="utf-8" type="text/javascript" src="js/revised.js"></script>
+<p>
+Terms of Service:  By viewing any of these webpages, you certify that you will always hold harmless the webmaster, that you will never commercially use any content, and that you are an adult.
+<br>Privacy Policy:  No tracking. No cookies.
 
 </body>
 </html>
