@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>sums credit</title>
+</head>
+
+<body>
+<script>
+function myFunction() 
+{
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	document.getElementById("output").innerHTML = num1 * num2;
+}
+</script>
+
+How many metric tonnes of greenhouse gases have you removed from the atmosphere per year on average? <a href="credit.htm">Here is an example calculation</a>. <input type="text" id="num1">
+<br>
+How many years have you removed greenhouse gases from the atmosphere? <input type="text" id="num2">
+<br>
+Total Carbon Credit: <button onclick="myFunction()">=</button>
+<p id="output"></p>
+<p><a href="http://green247.org/cred.htm"><button>NEXT</button></a></p>
+</body>
+</html>
