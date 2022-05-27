@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>sums credit</title>
+</head>
+
+<body>
+<script>
+function myFunction() 
+{
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	document.getElementById("output").innerHTML = num1 + num2;
+}
+</script>
+
+How many metric tonnes of carbon dioxide have you ever removed from the atmosphere in whole numbers? <input type="text" id="num1">
+<br>
++
+<br>
+How many metric tonnes of greenhouse gas has anyone ever offset or removed from the atmosphere for you? <input type="text" id="num2">
+<br>
+Total Carbon Credit: <button onclick="myFunction()">=</button>
+<p id="output"></p>
+<p><a href="percent.htm"><button>NEXT</button></a></p>
+</body>
+</html>
