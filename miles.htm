@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>sums credit</title>
+</head>
+
+<body>
+<script>
+function myFunction() 
+{
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value);
+	document.getElementById("output").innerHTML = num1 / num2;
+}
+</script>
+
+For how many miles did you operate your first car? <input type="text" id="num1">
+<br>
+/
+<br>
+What was the mileage for your first car in miles per gallon? <input type="text" id="num2">
+<br>
+Total gallons used in your first car: <button onclick="myFunction()">=</button>
+<p id="output"></p>
+<p><a href="http://green247.org/debt.htm"><button>ADD ANOTHER CAR</button></a></p>
+<p><a href="http://green247.org/debt.htm"><button>NO MORE CARS</button></a></p>
+</body>
+</html>
