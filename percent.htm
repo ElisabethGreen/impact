@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>sums debt</title>
+</head>
+
+<body>
+<script>
+function myFunction() 
+{
+	var num1 = parseInt(document.getElementById("num1").value);
+	var num2 = parseInt(document.getElementById("num2").value)*12;
+	document.getElementById("output").innerHTML = num1 * num2;
+}
+</script>
+
+How many live children have you ever produced? 
+<input type="text" id="num1">
+<br>
+What percent of time did your biological children spend in a Developed Country in total or on average? 
+<input type="text" id="num2">
+<br>
+Your total Carbon Debt from having children is 
+<button onclick="myFunction()">=</button>
+<p id="output"></p>
+<p><a href="http://green247.org/miles.htm"><button>NEXT</button></a></p>
+</body>
+</html>
